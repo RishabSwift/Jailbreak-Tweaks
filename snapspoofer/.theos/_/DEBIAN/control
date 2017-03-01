@@ -1,0 +1,11 @@
+Package: com.rishabswift.snapspoofer
+Name: SnapSpoofer
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Spoof your screenshot and view count for Snapchat. 
+Maintainer: Rishab Swift
+Author: Rishab Swift
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/snapspooferprefs.bundle/icon@full.png
+Version: 1.0
+Installed-Size: 304

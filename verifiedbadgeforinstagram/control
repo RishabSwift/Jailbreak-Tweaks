@@ -1,0 +1,9 @@
+Package: com.rishabswift.verifiedbadgeinstagram
+Name: Verified Badge For Instagram
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Adds a little checkmark next to your username to make it look like you are verified. No options to configure.
+Maintainer: Rishab Swift <rishabswift@gmail.com>
+Author: Rishab Swift <rishabswift@gmail.com>
+Section: Tweaks

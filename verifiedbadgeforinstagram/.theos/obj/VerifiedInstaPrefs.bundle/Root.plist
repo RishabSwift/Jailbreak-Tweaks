@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>VerifiedInstaPrefs First Page</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.rishabswift.verifiedinstaprefs</string>
+				<key>key</key>
+				<string>AwesomeSwitch1</string>
+				<key>label</key>
+				<string>Awesome Switch 1</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>isEmail</key>
+				<true/>
+				<key>placeholder</key>
+				<string>johnverkie@</string>
+				<key>defaults</key>
+				<string>com.rishabswift.verifiedinstaprefs</string>
+				<key>key</key>
+				<string>name</string>
+				<key>label</key>
+				<string>Name brother</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.rishabswift.verifiedinstaprefs</string>
+				<key>key</key>
+				<string>whatsup</string>
+				<key>label</key>
+				<string>I'm gay</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>placeholder</key>
+				<string>0.2</string>
+				<key>bestGuess</key>
+				<string>0.2</string>
+				<key>defaults</key>
+				<string>com.yourname.yourtweak</string>
+				<key>isDecimalPad</key>
+				<true/>
+				<key>key</key>
+				<string>savedName</string>
+				<key>label</key>
+				<string>Visible Name:</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>VerifiedInstaPrefs</string>
+	</dict>
+</plist>

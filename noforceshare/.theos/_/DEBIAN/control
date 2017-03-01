@@ -1,0 +1,10 @@
+Package: com.rishabswift.noforceshare
+Name: NoForceShare
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Rishab Swift
+Author: Rishab Swift
+Section: Tweaks
+Version: 0.0.1-21
+Installed-Size: 120

@@ -1,0 +1,9 @@
+Package: com.rishabswift.relevant
+Name: RelevantAlertMessages
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Rishab Swift
+Author: Rishab Swift
+Section: Tweaks

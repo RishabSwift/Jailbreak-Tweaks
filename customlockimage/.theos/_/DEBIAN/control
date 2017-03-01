@@ -1,0 +1,10 @@
+Package: com.rishabswift.customlockimage
+Name: CustomLockImage
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Rishab Bhatt
+Author: Rishab Bhatt
+Section: Tweaks
+Version: 0.0.1-6+debug
+Installed-Size: 208

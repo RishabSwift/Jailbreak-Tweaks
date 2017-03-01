@@ -1,0 +1,10 @@
+Package: com.rishabswift.nohandwrittenmessage
+Name: NoHandwrittenMessage
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Rishab Swift
+Author: Rishab Swift
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120

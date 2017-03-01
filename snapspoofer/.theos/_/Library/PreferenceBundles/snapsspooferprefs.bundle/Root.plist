@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key> 		<string>PSGroupCell</string>
+				<key>footerText</key> 	<string>Enable SnapSpoofer to enable custom view and screenshot counts. Restart Snapchat to take effect.</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>			<string>PSSwitchCell</string>
+				<key>default</key>		<true/>
+				<key>defaults</key>		<string>com.rishabswift.snapsspooferprefs</string>
+				<key>key</key>			<string>enabled</string>
+				<key>label</key>		<string>Enable SnapSpoofer</string>
+			</dict>
+			<dict>
+				<key>action</key> 			<string>closeSnapchat</string>
+				<key>cell</key> 			<string>PSButtonCell</string>
+				<key>label</key> 			<string>Close Snapchat</string>
+			</dict>
+
+
+			<dict>
+				<key>cell</key>			<string>PSGroupCell</string>
+				<key>label</key> 		<string>Spoof View Count</string>
+				<key>footerText</key> 	<string>Set your own custom view count here. 
+i = original view count.
+
+For example: 
+  i + 50 	adds 50 to your original view count. 
+  i * 2 	multiplies your original view count by 2. 
+  50		makes your new view count 50.</string>
+			</dict>
+
+			<dict>
+				<key>cell</key> 		<string>PSSwitchCell</string>
+				<key>default</key>		<true/>
+				<key>defaults</key>		<string>com.rishabswift.snapsspooferprefs</string>
+				<key>key</key>			<string>customViewEnabled</string>
+				<key>label</key>		<string>Enable Custom</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>				<string>PSEditTextCell</string>
+				<key>placeholder</key>		<string></string>
+				<key>bestGuess</key>		<string>i * 2</string>
+				<key>defaults</key>			<string>com.rishabswift.snapsspooferprefs</string>
+				<key>noAutoCorrect</key>	<true/>
+				<key>key</key>				<string>customViewCount</string>
+				<key>label</key>			<string>View Count</string>
+			</dict>
+
+			<dict>
+				<key>cell</key> 		<string>PSGroupCell</string>
+				<key>label</key> 		<string>Spoof Screenshot Count</string>
+				<key>footerText</key> 	<string>Set your own custom formula here. i = original screenshot count.
+				</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>		<string>PSSwitchCell</string>
+				<key>default</key>	<true/>
+				<key>defaults</key>	<string>com.rishabswift.snapsspooferprefs</string>
+				<key>key</key>		<string>customScreenshotEnabled</string>
+				<key>label</key>	<string>Enable Custom</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>				<string>PSEditTextCell</string>
+				<key>placeholder</key>		<string></string>
+				<key>bestGuess</key>		<string>i + 5</string>
+				<key>defaults</key>			<string>com.rishabswift.snapsspooferprefs</string>
+				<key>noAutoCorrect</key>	<true/>
+				<key>key</key>				<string>customScreenshotCount</string>
+				<key>label</key>			<string>Screenshot Count</string>
+			</dict>
+
+			<dict>
+				<key>cell</key> 		<string>PSGroupCell</string>
+				<key>label</key> 		<string>DONATE</string>
+				<key>footerText</key> 	<string>Thanks for using this tweak.</string>
+			</dict>
+
+			<dict>
+				<key>action</key> 			<string>donateSickKids</string>
+				<key>cell</key> 			<string>PSButtonCell</string>
+				<key>label</key> 			<string>Sick Kids Foundation</string>
+			</dict>
+
+			<dict>
+				<key>action</key> 			<string>donateRedCross</string>
+				<key>cell</key> 			<string>PSButtonCell</string>
+				<key>label</key> 			<string>The Canadian Red Cross</string>
+			</dict>
+
+		</array>
+	<key>title</key>
+	<string>SnapSpoofer</string>
+	</dict>
+</plist>
